@@ -131,6 +131,7 @@
     "start:server:json": "node --loader ts-node/esm src/json/server/direct.ts",
     "start:server:python": "node --loader ts-node/esm src/python/server/direct.ts",
     "start:server:groovy": "node --watch --loader  ts-node/esm src/groovy/server/direct.ts",
+    "start:server:cpp": "node --loader ts-node/esm src/cpp/server/direct.ts",
     "langium:generate": "langium generate --file ./src/langium/statemachine/config/langium-config.json"
   }
 }

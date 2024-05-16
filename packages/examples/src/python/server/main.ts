@@ -10,6 +10,7 @@ import { LanguageName } from '../../common/server-commons.js';
 
 export const runPythonServer = (baseDir: string, relativeDir: string) => {
     const processRunPath = resolve(baseDir, relativeDir);
+    console.log(processRunPath);
     runLanguageServer({
         serverName: 'PYRIGHT',
         pathName: '/pyright',
