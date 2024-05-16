@@ -1,3 +1,16 @@
+ENV
+```
+npm i
+# Cleans-up, compiles and builds everything
+npm run build
+```
+Start Cpp & Python
+```
+# cpp
+npm run start:example:server:cpp
+# python
+npm run start:example:server:python
+```
 # Monaco Language Client, VSCode WebSocket Json RPC, Monaco-Editor-Wrapper, Monaco-Editor-React and examples
 
 [![Gitpod - Code Now](https://img.shields.io/badge/Gitpod-code%20now-blue.svg?longCache=true)](https://gitpod.io#https://github.com/TypeFox/monaco-languageclient)
